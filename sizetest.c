@@ -3,9 +3,8 @@
 
 int main(int argc, char** argv)
 {
-	int i, j, k, N, procs;
-	N = 900;
-	procs = 2;
+	int i, j, k, N;
+	N = 800;
 
 	float* A =  malloc(N*N*N*sizeof(float));
 

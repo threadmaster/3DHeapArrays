@@ -1,7 +1,7 @@
 
 program sizetest
 
-integer, parameter :: maxsize = 900
+integer, parameter :: maxsize = 800
 real (kind=4), dimension(:,:,:), allocatable :: A
 integer :: upperindex
 
